@@ -1,4 +1,4 @@
 package com.example.demo.service;
 
-public class myService {
+public class MyService {
 }
