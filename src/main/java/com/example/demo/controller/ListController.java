@@ -17,6 +17,7 @@ public class ListController {
     private ListerRepository listerRepository;
     @GetMapping("/getbylisterid")
     public @ResponseBody Optional<Lister> getByListerId(@RequestParam UUID id) {
+
         return listerRepository.findById(id);
     }
     @PostMapping("/addlister")
