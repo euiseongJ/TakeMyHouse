@@ -1,9 +1,13 @@
 package com.example.demo.models;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class House {
     private String address;
     private String city;
     private int phone_number;
+
 
     //getters
     public String getAddress() {
